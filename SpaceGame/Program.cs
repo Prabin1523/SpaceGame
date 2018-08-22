@@ -10,8 +10,8 @@ namespace SpaceGame
     {
         static void Main(string[] args)
         {
-            gameTitle();
-            first();
+        //    gameTitle();
+        //    first();
         }
 
         public static void gameTitle()
@@ -35,6 +35,7 @@ namespace SpaceGame
             string myLastName;
             Console.Write("Enter your Last Name: ");
             myLastName = Console.ReadLine();
+            Console.Clear();
 
             Console.Write("Welcome LOSER------------ (-_-) ! " + "Now Press Enter to begin: ");
             Console.ReadLine();
@@ -42,106 +43,77 @@ namespace SpaceGame
 
             Console.WriteLine("Congratulation  " + myFirstName + "! You have earned 1,000 Credits. ");
             Console.ReadLine();
+            Console.Clear();
             
+           
             Console.WriteLine("Select your Spaceship - A, B, or C");
-            string xuserValue = Console.ReadLine();
+            string userValue = Console.ReadLine();
             Console.ReadLine();
 
-            if (xuserValue == "C")
+            if (userValue == "C")
             {
                 Console.WriteLine("Sorry! You do not have enough credits for this option. Select other options. ");
                 Console.ReadLine();
+                Console.Clear();
             }
 
-            else if (xuserValue == "A")
+            else if (userValue == "A")
             {
-                string message = "Thunder-Bird! Great Choice... ";
+                string message = "You selected - Thunder-Bird! Great Choice... ";
                 
                 Console.WriteLine(message);
                 Console.Write("Thunder-Bird - Maximun Speed 1 light year per year. Price - 500 credits. ");
                 Console.ReadLine();
+                Console.Clear();
             }
-            else if (xuserValue == "B")
+            else if (userValue == "B")
             {
-                string message = "Virgin-Galactic! Great Choice.... ";
+                string message = "You selected - Virgin-Galactic! Great Choice.... ";
                 Console.WriteLine(message);
                 Console.Write("Virgin-Galactic has maximum speed of 5 light years per year. Price 600 credits. ");
                 Console.ReadLine();
+                Console.Clear();
             }
             else
             {
                 string message = "Sorry! Invalid Entry. Plase Enter option A, B or C. ";
                 Console.WriteLine(message);
-                Console.ReadLine();                
+                Console.ReadLine();
+                Console.Clear();
             }
 
 
 
-            Console.WriteLine("Select your Cargo: G - for Gold, D - Diamond");
-            string userValue = Console.ReadLine();
-            Console.ReadLine();
+              Console.WriteLine(" Now Select your Cargo: G - for Gold, D - Diamond");
+              string cargoOption = Console.ReadLine();
+          
+              Console.ReadLine();
 
-            if (userValue == "G")
+            if (cargoOption == "G")
             {
-                Console.WriteLine("Gold! " + myFirstName + "Gold has been added to your cargo. ");
+              
+                Console.WriteLine("Gold! " + myFirstName + ", Gold has been added to your cargo. ");
                 Console.ReadLine();
                 Console.Clear();
 
                 Console.WriteLine("You now have 400 credits left on your account. Do you want to add more Gold or Diamond to your cargo? ");
                 Console.ReadLine();
+                Console.Clear();
+            }
+            else if (cargoOption == "D")
+            {
+                string message = "Diamond " + myFirstName + ", Diamond has been added to your cargo. ";
+                Console.WriteLine(message);
+                Console.ReadLine();
+
+
             }
 
 
 
-
-
-
-
-
-
-
-
-            //message = message + "You lose. ";
-
-
-
-
-
-
-
-            //switch (option)
-            //{
-            //    case "1":
-            //    case "A":
-            //    case "B":
-
-            //}
         }
 
-        public static void first()
-        {
-
-        }
-
-        public static void second()
-        {
-
-        }
-
-        public static void third()
-        {
-
-        }
-
-        public static void YouWin()
-        {
-
-        }
-
-        public static void GameOver()
-        {
-
-        }
+        
 
     }   
 }
@@ -149,7 +121,43 @@ namespace SpaceGame
 
 
 
+//message = message + "You lose. ";
 
+
+
+//switch (option)
+//{
+//    case "1":
+//    case "A":
+//    case "B":
+
+//}
+
+
+//public static void first()
+//{
+
+//}
+
+//public static void second()
+//{
+
+//}
+
+//public static void third()
+//{
+
+//}
+
+//public static void YouWin()
+//{
+
+//}
+
+//public static void GameOver()
+//{
+
+//}
 
 
 
