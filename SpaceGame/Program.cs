@@ -77,12 +77,31 @@ namespace SpaceGame
 
 
 
+            Console.WriteLine("Select your Cargo: G - for Gold, D - Diamond");
+            string userValue = Console.ReadLine();
+            Console.ReadLine();
+
+            if (userValue == "G")
+            {
+                Console.WriteLine("Gold! " + myFirstName + "Gold has been added to your cargo. ");
+                Console.ReadLine();
+                Console.Clear();
+
+                Console.WriteLine("You now have 400 credits left on your account. Do you want to add more Gold or Diamond to your cargo? ");
+                Console.ReadLine();
+            }
 
 
 
 
 
-            message = message + "You lose. ";
+
+
+
+
+
+
+            //message = message + "You lose. ";
 
 
 
