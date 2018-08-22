@@ -82,7 +82,7 @@ namespace SpaceGame
 
 
 
-            //message = message + "You lose. ";
+            message = message + "You lose. ";
 
 
 
