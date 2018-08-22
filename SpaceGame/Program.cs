@@ -10,8 +10,12 @@ namespace SpaceGame
     {
         static void Main(string[] args)
         {
-        //    gameTitle();
-        //    first();
+            gameTitle();
+            first();
+        }
+        public static void first()
+        {
+
         }
 
         public static void gameTitle()
@@ -106,8 +110,16 @@ namespace SpaceGame
                 Console.WriteLine(message);
                 Console.ReadLine();
 
-
             }
+
+            Console.WriteLine("Now you have " + userValue + cargoOption + "Enter your destination ");
+            Console.ReadLine();
+
+
+
+
+
+
 
 
 
@@ -134,10 +146,7 @@ namespace SpaceGame
 //}
 
 
-//public static void first()
-//{
 
-//}
 
 //public static void second()
 //{
