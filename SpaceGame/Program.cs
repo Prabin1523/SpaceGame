@@ -34,6 +34,45 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
+            Console.WriteLine("                                                                                                       SPACE GAME - 1 ");
+            Console.ReadLine();
+            Console.Clear();
+
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine("                                                                                                       Presented By: ");
+            Console.WriteLine(" ");
+            Console.WriteLine("                                                                                                       HUMBERTO & PUN ");
+            Console.ReadLine();
+            Console.Clear();
+
+
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
@@ -95,7 +134,7 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-            Console.WriteLine("                                                                                         Which sometime will fail Bigly.......!");
+            Console.WriteLine("                                                                                         Which sometime fails Bigly.......!");
             Console.ReadLine();
             Console.Clear();
 
@@ -439,7 +478,7 @@ namespace SpaceGame
                 Console.WriteLine(" ");
                 Console.WriteLine("                                                                                                 SpaceShip(C)  - Space X ");
                 Console.WriteLine("                                                                                                 Maximum Speed - 100 LY ");
-                Console.WriteLine("                                                                                                 Price         -  ");
+                Console.WriteLine("                                                                                                 Price         - Premium ");
 
                 Console.ReadLine();
                 Console.Clear();
