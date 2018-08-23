@@ -36,21 +36,29 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
 
-            Console.WriteLine("                                                                                                     .          ");
-            Console.WriteLine("                                                                                                    ...                    ");
-            Console.WriteLine("                                                                                         |         .....        |      ");
-            Console.WriteLine("                                                                                        .         .......        .       ");
-            Console.WriteLine("                                                                                       .         .........        .      ");
-            Console.WriteLine("                                                                                       .       .....( ).....      .     ");
-            Console.WriteLine("                                                                                       .        ....   ....       .        ");
-            Console.WriteLine("                                                                                        .        .... ....       .         ");
-            Console.WriteLine("                                                                                          .         ...        .       ");
-            Console.WriteLine("                                                                                             .     .....    .      ");
+            Console.WriteLine("                                                                                                              .          ");
+            Console.WriteLine("                                                                                                             ...                    ");
+            Console.WriteLine("                                                                                                  |         .....        |      ");
+            Console.WriteLine("                                                                                                 .         .......        .       ");
+            Console.WriteLine("                                                                                                .         .........        .      ");
+            Console.WriteLine("                                                                                                .       .....( ).....      .     ");
+            Console.WriteLine("                                                                                                .        ....   ....       .        ");
+            Console.WriteLine("                                                                                                 .        .... ....       .         ");
+            Console.WriteLine("                                                                                                   .         ...        .       ");
+            Console.WriteLine("                                                                                                      .     .....    .      ");
 
             Console.WriteLine(" ");    
             Console.WriteLine(" ");
-            Console.WriteLine("                                                                                         Welcome to SpaceGame-1 (-_-)");
+            Console.WriteLine("                                                                                                WELCOME TO SPACEGAME-1 (-_-)");
             Console.ReadLine(); 
             Console.Clear();
 
@@ -69,7 +77,7 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
 
-            Console.WriteLine("                                                                                     Every Great Journey Begins With a Dream! ");
+            Console.WriteLine("                                                                                        Every Great Journey Begins With a Dream! ");
             Console.ReadLine();
             Console.Clear();
 
@@ -87,7 +95,7 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-            Console.WriteLine( "                                                                                    Which will sometime fail Bigly.......!");
+            Console.WriteLine("                                                                                         Which sometime will fail Bigly.......!");
             Console.ReadLine();
             Console.Clear();
 
@@ -105,9 +113,9 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-            Console.WriteLine("                                           In the year 2994, explorers on Mars discovered the remains of an ancient spacefaring civilization. In the decades");
-            Console.WriteLine("                                           that followed, these mystorious artifacts revealed startting new technologies, enabling travel to the furthest stars.");
-            Console.WriteLine("                                           The basis for this incredible technology was a force that controlled the very fabric of space and time.");
+            Console.WriteLine("                                                 In the year 2994, explorers on Mars discovered the remains of an ancient spacefaring civilization. In the decades");
+            Console.WriteLine("                                                 that followed, these mystorious artifacts revealed startting new technologies, enabling travel to the furthest stars.");
+            Console.WriteLine("                                                 The basis for this incredible technology was a force that controlled the very fabric of space and time.");
                 
             Console.ReadLine();
             Console.Clear();
@@ -126,7 +134,7 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-            Console.WriteLine("                                                                                     They called it the greatest discovery in Human history...");
+            Console.WriteLine("                                                                                       They called it the greatest discovery in Human history...");
             Console.ReadLine();
             Console.Clear();
 
@@ -144,7 +152,25 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-            Console.WriteLine("                                                                                     The civilization of the galaxy call it...");
+            Console.WriteLine("                                                                                        The civilization of the galaxy call it...");
+            Console.ReadLine(); 
+            Console.Clear();
+
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine("                                                                                                      DARK ");
             Console.ReadLine();
             Console.Clear();
 
@@ -162,7 +188,7 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-            Console.WriteLine("                                                                                              DARK MATTER! ");
+            Console.WriteLine("                                                                                                      DARK MATTER......");
             Console.ReadLine();
             Console.Clear();
 
@@ -180,7 +206,9 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-            Console.WriteLine("                                                                                    Press Enter to Continue");
+            Console.WriteLine("                                                                                               WARNING ! WARNING ! ");
+            Console.WriteLine(" ");
+            Console.WriteLine("                                                                                      Must be 18 and above to Play this Game ! ");
             Console.ReadLine();
             Console.Clear();
 
@@ -198,7 +226,7 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-            Console.Write("                                                                                        Enter your First Name: ");
+            Console.Write("                                                                                                  Enter your First Name: ");
             string myFirstName;
             myFirstName = Console.ReadLine();
             Console.Clear();
@@ -220,7 +248,7 @@ namespace SpaceGame
             Console.WriteLine(" ");
 
             string myLastName;
-            Console.Write("                                                                                        Enter your Last Name: ");
+            Console.Write("                                                                                                  Enter your Last Name: ");
             myLastName = Console.ReadLine();
             Console.Clear();
 
@@ -241,7 +269,7 @@ namespace SpaceGame
 
             
 
-            Console.Write("                                                                                         Welcome LOSER------------ (-_-) !");
+            Console.Write("                                                                                                  Welcome LOSER------------ (-_-) !");
             Console.ReadLine();
             Console.Clear();
 
@@ -259,7 +287,7 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-            Console.WriteLine("                                                                                      Press Enter to Continue......");
+            Console.WriteLine("                                                                                              Press Enter to Continue......");
             Console.ReadLine();
             Console.Clear();
 
@@ -278,7 +306,7 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-            Console.WriteLine("                                                                                      Congratulation  " + myFirstName + "! You have earned 1,000 Credits. ");
+            Console.WriteLine("                                                                                Congratulation  " + myFirstName + "! You have earned 1,000 Credits. ");
             Console.ReadLine();
             Console.Clear();
             bool SpaceShip = true;
@@ -303,7 +331,74 @@ namespace SpaceGame
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
-                Console.WriteLine("                                                                                   Entering SpaceShips Gallery..... ");
+                Console.WriteLine("                                                                                          Entering SpaceShips Gallery..... ");
+
+                Console.ReadLine();
+                Console.Clear();
+
+                
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+
+                Console.WriteLine("                                                                                                              .          ");
+                Console.WriteLine("                                                                                                             ...                    ");
+                Console.WriteLine("                                                                                                     |      .....       |      " );
+                Console.WriteLine("                                                                                                    .      .......       .       " );
+                Console.WriteLine("                                                                                                   .      .........       .      " );
+                Console.WriteLine("                                                                                                   .    .....( ).....     .     ");
+                Console.WriteLine("                                                                                                   .     ....   ....      .        ");
+                Console.WriteLine("                                                                                                    .     .... ....      .         ");
+                Console.WriteLine("                                                                                                      .      ...       .       ");
+                Console.WriteLine("                                                                                                        .   .....   .      ");
+            
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine("                                                                                       Welcome to MSSA SpaceShip Customs......Chose wisely. ");
+                Console.ReadLine();
+                Console.Clear();
+
+
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine("                                                                                                 SpaceShip(A)  - Thunder Bird ");
+                Console.WriteLine("                                                                                                 Maximum Speed - 1LY ");
+                Console.WriteLine("                                                                                                 Price         - 500 Credits ");
 
                 Console.ReadLine();
                 Console.Clear();
@@ -322,52 +417,9 @@ namespace SpaceGame
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-
-                Console.WriteLine("                                                                                                  .          ");
-                Console.WriteLine("                                                                                                 ...                    ");
-                Console.WriteLine("                                                                                         |      .....       |      " );
-                Console.WriteLine("                                                                                        .      .......       .       " );
-                Console.WriteLine("                                                                                       .      .........       .      " );
-                Console.WriteLine("                                                                                       .    .....( ).....     .     ");
-                Console.WriteLine("                                                                                       .     ....   ....      .        ");
-                Console.WriteLine("                                                                                        .     .... ....      .         ");
-                Console.WriteLine("                                                                                          .      ...       .       ");
-                Console.WriteLine("                                                                                            .   .....   .      ");
-
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine("                                                                           Welcome to MSSA SpaceShip Customs......Chose wisely. ");
-                Console.ReadLine();
-                Console.Clear();
-
-
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.Write("                                                    SpaceShip-A Thunder-Bird - Maximun Speed 1 light year per year. Price - 500 credits.");
+                Console.WriteLine("                                                                                                 SpaceShip(B)  - Virgin-Galactic ");
+                Console.WriteLine("                                                                                                 Maximum Speed - 10 LY ");
+                Console.WriteLine("                                                                                                 Price         - 600 Credits ");
                 Console.ReadLine();
                 Console.Clear();
 
@@ -385,7 +437,10 @@ namespace SpaceGame
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
-                Console.Write("                                                     SpaceShip-B Virgin-Galactic has maximum speed of 5 light years per year. Price 600 credits.");
+                Console.WriteLine("                                                                                                 SpaceShip(C)  - Space X ");
+                Console.WriteLine("                                                                                                 Maximum Speed - 100 LY ");
+                Console.WriteLine("                                                                                                 Price         -  ");
+
                 Console.ReadLine();
                 Console.Clear();
 
@@ -402,36 +457,18 @@ namespace SpaceGame
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
-                Console.WriteLine(" "); 
-                Console.Write("                                                     SpaceShip-C SpaceShip-X has maximum speed of 50 light years per year.");
+                Console.WriteLine(" ");
+                Console.WriteLine("                                                                                            Select your Spaceship - A, B, or C");
                 Console.ReadLine();
                 Console.Clear();
-
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
-                Console.WriteLine("                                                                         Select your Spaceship - A, B, or C");
-                //Console.ReadLine();
-                //Console.Clear();
 
                 string userValue = Console.ReadLine();
 
                 if (userValue == "C")
                 {
-                    Console.WriteLine("                                                                     You selected Space-X!");
-                    Console.WriteLine("                                                                     Space-X has maximum speed of 50 light years. ");
-                    Console.WriteLine("                                                                     Press Enter to continue....");
+                    Console.WriteLine("                                                                                        You selected Space-X!");
+                    Console.WriteLine("                                                                                        Space-X has maximum speed of 50 light years. ");
+                    Console.WriteLine("                                                                                        Press Enter to continue....");
                    
                     Console.Clear();
 
@@ -452,7 +489,7 @@ namespace SpaceGame
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
 
-                    Console.WriteLine("                                                                     Loading.....................");
+                    Console.WriteLine("    Loading.....................");
                     Console.ReadLine();
                     Console.Clear();
 
@@ -475,7 +512,7 @@ namespace SpaceGame
 
 
 
-                    Console.WriteLine("  Loading...(:_:)");
+                    Console.WriteLine("    Loading...(:_:)");
                     Console.ReadLine();
                     Console.Clear();
                     Console.WriteLine(" ");
@@ -519,7 +556,7 @@ namespace SpaceGame
 
 
 
-                    Console.WriteLine("     Loading...................(:_:) 10% ");
+                    Console.WriteLine("    Loading...................(:_:) 10% ");
                     Console.ReadLine();
                     Console.Clear();
 
@@ -540,7 +577,7 @@ namespace SpaceGame
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
 
-                    Console.WriteLine("     Loading............................:_:) 20%");
+                    Console.WriteLine("    Loading............................:_:) 20%");
                     Console.ReadLine();
                     Console.Clear();
                     Console.WriteLine(" ");
@@ -563,7 +600,7 @@ namespace SpaceGame
 
 
 
-                    Console.WriteLine("     Loading.......................................(:_:) 30% ");
+                    Console.WriteLine("    Loading.......................................(:_:) 30% ");
                     Console.ReadLine();
                     Console.Clear();
                     Console.WriteLine(" ");
@@ -607,7 +644,7 @@ namespace SpaceGame
 
 
 
-                    Console.WriteLine("     Loading...................................................................(:_:) 50%");
+                    Console.WriteLine("    Loading...................................................................(:_:) 50%");
                     Console.ReadLine();
                     Console.Clear();
                     Console.WriteLine(" ");
@@ -651,7 +688,7 @@ namespace SpaceGame
 
 
 
-                    Console.WriteLine("     Loading............................................................................................(:_:) 70% ");
+                    Console.WriteLine("    Loading............................................................................................(:_:) 70% ");
                     Console.ReadLine();
                     Console.Clear();
                     Console.WriteLine(" ");
@@ -673,7 +710,7 @@ namespace SpaceGame
 
 
 
-                    Console.WriteLine("                                       Loading........................................................");
+                    Console.WriteLine("    Loading..............................................................................................");
                     Console.ReadLine();
                     Console.Clear();
 
@@ -694,25 +731,8 @@ namespace SpaceGame
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
 
-                    Console.WriteLine("                                                                         Sorry! You are too broke! XD.... ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
 
-                    Console.Write("                                                                             You do not have enough credits for this option. Select other options.");
+                    Console.WriteLine("                                                                                             Sorry! You are too broke! XD.... ");
                     Console.ReadLine();
                     Console.Clear();
 
@@ -733,6 +753,10 @@ namespace SpaceGame
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
 
+                    Console.Write("                                                                                               You do not have enough credits for this option. Select other options.");
+                    Console.ReadLine();
+                    Console.Clear();
+
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
@@ -750,8 +774,11 @@ namespace SpaceGame
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
 
-                    Console.WriteLine("                                                                         Ops! Lets start again.");
                    
+
+                    Console.WriteLine("                                                                                              Ops! Lets start again.");
+                    Console.ReadLine();
+                    Console.Clear();
                 }
 
                 else if (userValue == "A")
@@ -774,28 +801,30 @@ namespace SpaceGame
                     Console.WriteLine(" ");
 
 
-                    string message = "                                                                         You selected - Thunder-Bird! (:_:)..... Great Choice.......  ";
-
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-
-
+                    string message = "                                                                                             You selected - Thunder-Bird! (:_:)..... Great Choice.......  ";
                     Console.WriteLine(message);
-                    Console.Write("                                                                            Thunder-Bird - Maximun Speed 1 light year per year. Price - 500 credits. ");
+                    Console.ReadLine();
+                    Console.Clear();
+
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    
+                    
+                    Console.Write("                                                                                                        Credit Balance 500 ");
                     Console.ReadLine();
                     Console.Clear();
                     Achoice = "Thunder-Bird";
@@ -822,6 +851,8 @@ namespace SpaceGame
 
                     string message = "                                                                          You selected - Virgin-Galactic! (:_:).....Great Choice.... ";
                     Console.WriteLine(message);
+                    Console.ReadLine();
+                    Console.Clear();
 
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
@@ -840,8 +871,7 @@ namespace SpaceGame
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
 
-
-                    Console.Write("                                                                             Virgin-Galactic has maximum speed of 5 light years per year. Price 600 credits. ");
+                    Console.Write("                                                                                                        Credit Balance 500 ");
                     Console.ReadLine();
                     Console.Clear();
                     Achoice = "Virgin-Galactic";
@@ -865,6 +895,7 @@ namespace SpaceGame
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
+                    
 
                     string message = "                                                                          Sorry! Invalid Entry. Plase Enter option A, B or C. ";
                     Console.WriteLine(message);
@@ -893,9 +924,12 @@ namespace SpaceGame
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
-
-                Console.WriteLine("                                                                             Now Select your Cargo: G - for Gold, D - Diamond");
+                
+                Console.WriteLine("                                                                                                Now Select your Cargo: ");
+                Console.WriteLine("                                                                                                Gold    - G ");
+                Console.WriteLine("                                                                                                Diamond - D ");
                 string cargoOption = Console.ReadLine();
+                Console.Clear();
 
                 if (cargoOption == "G")
                 {
@@ -916,33 +950,35 @@ namespace SpaceGame
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
+                    
 
-                    Console.WriteLine("                                                                        " + myFirstName + ", Gold has been added to your cargo. ");
+                    Console.WriteLine("                                                                            " + myFirstName + " Gold has been added to your cargo. ");
                     Console.ReadLine();
                     Bchoice = "Gold";
                     Console.Clear();
                     Cargo = false;
 
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
-                    Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    //Console.WriteLine(" ");
+                    
 
-                    Console.WriteLine("                                                       You now have 400 credits left on your account. Do you want to add more Gold or Diamond to your cargo? ");
-                    Console.ReadLine();
-                    Console.Clear();
+                    //Console.WriteLine("                                                       You now have 400 credits left on your account. Do you want to add more Gold or Diamond to your cargo? ");
+                    //Console.ReadLine();
+                    //Console.Clear();
                 }
                 else if (cargoOption == "D")
                 {
@@ -963,9 +999,10 @@ namespace SpaceGame
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
 
-                    string message = " " + myFirstName + ",                                                     Diamond has been added to your cargo. ";
+                    string message = "                                                                                   " + myFirstName + ", Diamond has been added to your cargo. ";
                     Console.WriteLine(message);
                     Console.ReadLine();
+                    Console.Clear();
                     Bchoice = "Diamond";
                     Cargo = false;
                 }
@@ -1016,8 +1053,9 @@ namespace SpaceGame
             Console.WriteLine(" ");
             Console.WriteLine(" ");
 
-            Console.WriteLine("                                                              Now you have selected " + Achoice + " & " + Bchoice + " Enter your destination: ");
-
+            Console.WriteLine("                                                                    You have selected " + Achoice + " as your voyager & loaded  " + Bchoice + " on your Cargo. ");
+            Console.WriteLine(" ");
+            Console.WriteLine("                                                                                             Enter your Destination Now....   ");
             Console.ReadLine();
 
 
