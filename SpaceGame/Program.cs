@@ -1086,8 +1086,13 @@ namespace SpaceGame
 
 
         }
-        
 
+        public static void startMission()
+        {
+            string message = "Enter Your Destination:";
+            Console.WriteLine(message);
+
+        }
         
 
 
