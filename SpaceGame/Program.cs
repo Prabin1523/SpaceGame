@@ -1083,20 +1083,41 @@ namespace SpaceGame
             Console.ReadLine();
             Console.Clear();
 
-
-
         }
 
         public static void startMission()
         {
             string message = "Enter Your Destination:";
             Console.WriteLine(message);
+            string userOption;
+            userOption = Console.ReadLine();
+            
+            if (userOption == "1")
+            {
+                Console.WriteLine("Your Destination is set to Planet Earth ");
+            }
+
+
+             else if (userOption == "2")
+            {
+                Console.WriteLine("Your Destination is set to Planet M63 ");
+                Console.ReadLine();
+                Console.Clear();
+
+            }
+            else if (userOption == "3")
+            {
+                Console.WriteLine("Your Destination is set for " + userOption + " . ");
+            }
 
         }
+       
+            
+
+
         
 
-
-    }   
+    }
 }
 
 
