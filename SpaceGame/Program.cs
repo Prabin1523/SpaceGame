@@ -308,7 +308,7 @@ namespace SpaceGame
 
 
 
-            Console.Write("                                                                                                  Welcome LOSER------------ (-_-) !");
+            Console.Write("                                                                                                  Welcome " + myFirstName + " " + myLastName + " ------------ (-_-) !");
             Console.ReadLine();
             Console.Clear();
 
@@ -771,7 +771,7 @@ namespace SpaceGame
                     Console.WriteLine(" ");
 
 
-                    Console.WriteLine("                                                                                             Sorry! You are too broke! XD.... ");
+                    Console.WriteLine("                                                                                             Sorry! Some thing went Worng! ");
                     Console.ReadLine();
                     Console.Clear();
 
@@ -1079,43 +1079,130 @@ namespace SpaceGame
             Console.Clear();
 
 
-            Console.WriteLine("                                                                                              Enter your First Destination: ");
-            Console.ReadLine();
-            Console.Clear();
+           // Console.WriteLine("                                                                                              Enter your First Destination: ");
+           // Console.ReadLine();
+            Program.startMission();
+            
 
         }
 
         public static void startMission()
         {
-            string message = "Enter Your Destination:";
-            Console.WriteLine(message);
-            string userOption;
-            userOption = Console.ReadLine();
-            
-            if (userOption == "1")
+
+            Console.WriteLine("                                                                                              Enter your First Destination: ");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("                                                                                              1 - Earth, 2 - M63, 3 - Alpha Centuri ");
+            string input = Console.ReadLine();
+            int a = Convert.ToInt32(input);
+                      
+            if (a == 1)
             {
-                Console.WriteLine("Your Destination is set to Planet Earth ");
+                Console.WriteLine("Your Destination is set to Planet Earth. ");
+                Console.ReadLine();
+                Console.Clear();
             }
 
 
-             else if (userOption == "2")
+             else if (a == 2)
             {
-                Console.WriteLine("Your Destination is set to Planet M63 ");
+                Console.WriteLine("Your Destination is set to Planet M63. ");
                 Console.ReadLine();
                 Console.Clear();
 
+                
+
             }
-            else if (userOption == "3")
+            else if (a == 3)
             {
-                Console.WriteLine("Your Destination is set for " + userOption + " . ");
+                Console.WriteLine("Your Destination is set for Alpha Centuri. ");
+                Console.ReadLine();
+                Console.Clear();
+
+            
             }
 
         }
-       
-            
 
+           public static void checkstatus()
+           {
+            
+            Console.WriteLine("Check Status? ");
+            Console.Write("Y: for yes, N: for no");
+            Console.ReadLine();
+
+            string checkstatus = Console.ReadLine();
+            if ( checkstatus == "Y")
+            {
+                Console.WriteLine("Fuel: GO");
+                Console.WriteLine("MRE: GO");
+                Console.WriteLine("Cargo: GO");
+                Console.WriteLine("Weapons: GO");
+                Console.WriteLine("Ammunition: GO");
+                Console.WriteLine("Check Status completed ");
+                Console.ReadLine();
+
+            }
+            else if ( checkstatus == "N")
+            {
+                Console.WriteLine("Roger That. ");
+                Console.ReadLine();
+                Console.Clear();
+            }
+            
+           }
+
+        public static void GameOver()
+        {
+
+        }
 
         
+
+        public static void TradeGoods()            
+        {
+            Console.WriteLine("Do you want to trade your goods for Dark Matter? ");
+            Console.WriteLine("Type YES, or NO: ");
+            Console.ReadLine();
+
+            string trade = Console.ReadLine();
+            if (trade == "YES") 
+            {
+                Console.WriteLine("Your Gold and Diamond has been traded for Dark Matter.");
+                Console.ReadLine();
+                Console.Clear();               
+
+            }
+            else if(trade == "NO")
+            {
+                Console.WriteLine("Roger, No Trade. ");
+                Console.ReadLine();
+                Console.Clear();
+            }
+        }
+
+        public static void Destination2()
+        {
+
+        }
+
+        public static void checkstatus2()
+        {
+
+        }
+
+        public static void pirates()
+        {
+
+        }
+
+
+        public static void gameover2()
+        {
+
+        }
+
+
 
     }
 }
@@ -1123,40 +1210,11 @@ namespace SpaceGame
 
 
 
-//message = message + "You lose. ";
-
-
-
-//switch (option)
-//{
-//    case "1":
-//    case "A":
-//    case "B":
-
-//}
 
 
 
 
-//public static void second()
-//{
 
-//}
-
-//public static void third()
-//{
-
-//}
-
-//public static void YouWin()
-//{
-
-//}
-
-//public static void GameOver()
-//{
-
-//}
 
 
 
