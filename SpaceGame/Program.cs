@@ -251,6 +251,8 @@ namespace SpaceGame
             Console.ReadLine();
             Console.Clear();
 
+           
+            
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
@@ -1086,6 +1088,8 @@ namespace SpaceGame
 
         }
 
+
+
         public static void startMission()
         {
 
@@ -1118,6 +1122,8 @@ namespace SpaceGame
                 Console.WriteLine("Your Destination is set for Alpha Centuri. ");
                 Console.ReadLine();
                 Console.Clear();
+                Program.checkstatus();
+
 
             
             }
@@ -1125,14 +1131,13 @@ namespace SpaceGame
         }
 
            public static void checkstatus()
-           {
-            
+           {           
             Console.WriteLine("Check Status? ");
             Console.Write("Y: for yes, N: for no");
             Console.ReadLine();
 
-            string checkstatus = Console.ReadLine();
-            if ( checkstatus == "Y")
+            string status = Console.ReadLine();
+            if ( status == "Y")
             {
                 Console.WriteLine("Fuel: GO");
                 Console.WriteLine("MRE: GO");
@@ -1143,11 +1148,12 @@ namespace SpaceGame
                 Console.ReadLine();
 
             }
-            else if ( checkstatus == "N")
+            else if ( status == "N")
             {
                 Console.WriteLine("Roger That. ");
                 Console.ReadLine();
                 Console.Clear();
+                
             }
             
            }
@@ -1201,6 +1207,16 @@ namespace SpaceGame
         {
 
         }
+
+        //public static void age();
+        //{
+        //    Console.WriteLine("Enter your ager, mm/dd/yyyy)");
+        //    DateTime bday = Convert.ToDateTime("mm/dd/yyyy");
+        //    DateTime today = DateTime.Today;
+        //    int age = today.Year - bday.Year;
+        //    Console.ReadLine();
+
+        //}
 
 
 
