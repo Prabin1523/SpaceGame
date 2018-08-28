@@ -1096,13 +1096,13 @@ namespace SpaceGame
             Console.WriteLine("                                                                                              Enter your First Destination: ");
             Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("                                                                                              1 - Earth, 2 - M63, 3 - Alpha Centuri ");
+            Console.WriteLine("                                                                                              1 - M63, 2 - Alpha Centuri ");
             string input = Console.ReadLine();
             int a = Convert.ToInt32(input);
                       
             if (a == 1)
             {
-                Console.WriteLine("Your Destination is set to Planet Earth. ");
+                Console.WriteLine("Your Destination is set to Planet M63. ");
                 Console.ReadLine();
                 Console.Clear();
             }
@@ -1110,27 +1110,18 @@ namespace SpaceGame
 
              else if (a == 2)
             {
-                Console.WriteLine("Your Destination is set to Planet M63. ");
+                Console.WriteLine("Your Destination is set to Planet Alpha Centuri. ");
                 Console.ReadLine();
                 Console.Clear();
 
                 
 
             }
-            else if (a == 3)
-            {
-                Console.WriteLine("Your Destination is set for Alpha Centuri. ");
-                Console.ReadLine();
-                Console.Clear();
-                Program.checkstatus();
-
-
-            
-            }
+           
 
         }
 
-           public static void checkstatus()
+        public static void Checkstatus()
            {           
             Console.WriteLine("Check Status? ");
             Console.Write("Y: for yes, N: for no");
@@ -1174,7 +1165,7 @@ namespace SpaceGame
             string trade = Console.ReadLine();
             if (trade == "YES") 
             {
-                Console.WriteLine("Your Gold and Diamond has been traded for Dark Matter.");
+                Console.WriteLine("Your good has been traded for Dark Matter.");
                 Console.ReadLine();
                 Console.Clear();               
 
@@ -1189,6 +1180,8 @@ namespace SpaceGame
 
         public static void Destination2()
         {
+            Console.WriteLine("Enter your Destination. ");
+            Console.ReadLine();
 
         }
 
