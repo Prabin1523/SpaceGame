@@ -1121,33 +1121,7 @@ namespace SpaceGame
 
         }
 
-        public static void Checkstatus()
-        {
-            Console.WriteLine("Check Status? ");
-            Console.Write("Y: for yes, N: for no");
-            Console.ReadLine();
-
-            string status = Console.ReadLine();
-            if (status == "Y")
-            {
-                Console.WriteLine("Fuel: GO");
-                Console.WriteLine("MRE: GO");
-                Console.WriteLine("Cargo: GO");
-                Console.WriteLine("Weapons: GO");
-                Console.WriteLine("Ammunition: GO");
-                Console.WriteLine("Check Status completed ");
-                Console.ReadLine();
-
-            }
-            else if (status == "N")
-            {
-                Console.WriteLine("Roger That. ");
-                Console.ReadLine();
-                Console.Clear();
-
-            }
-
-        }
+        
 
         public static void GameOver()
         {
@@ -1201,17 +1175,6 @@ namespace SpaceGame
 
         }
 
-        //public static void age();
-        //{
-        //    Console.WriteLine("Enter your ager, mm/dd/yyyy)");
-        //    DateTime bday = Convert.ToDateTime("mm/dd/yyyy");
-        //    DateTime today = DateTime.Today;
-        //    int age = today.Year - bday.Year;
-        //    Console.ReadLine();
-
-        //}
-
-
 
     }
 }
@@ -1228,42 +1191,5 @@ namespace SpaceGame
 
 
 
-/*
-case 1 
-    Planet A
-    Ship A
-    Carryon A
-
-case 2
-    Planet A
-    Ship B
-    Carryon  B
-
-case 3
-    Planet A
-    Ship B
-    Carryon A
-
-case 4
-    Planet A
-    Ship A
-    Carryon B
-
-
-case 5
-    Planet B
-    Ship B
-    Carryon B
-
-case 6
-    Planet B
-    Ship A
-    Carryon B
-
-case 7
-    Planet B
-    Ship B
-    Carryon A
-    */
 
 
