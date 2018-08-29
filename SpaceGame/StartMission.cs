@@ -14,7 +14,7 @@ namespace SpaceGame
             Console.WriteLine("                                                                                              Enter your First Destination: ");
             Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("                                                                                              1 - M63, 2 - Alpha Centuri ");
+            Console.WriteLine("                                                                                               1 - M63, 2 - Alpha Centuri ");
             string input = Console.ReadLine();
             int a = Convert.ToInt32(input);
 
@@ -31,11 +31,12 @@ namespace SpaceGame
                 Console.WriteLine("Your Destination is set to Planet Alpha Centuri. ");
                 Console.ReadLine();
                 Console.Clear();
-
-
-
             }
-
+            else
+            {
+                Console.WriteLine("Invalid Entry, Please Try again. ");
+                Console.ReadLine();
+            }
 
         }
     }
