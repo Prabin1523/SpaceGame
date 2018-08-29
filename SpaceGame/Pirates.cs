@@ -8,5 +8,9 @@ namespace SpaceGame
 {
     class Pirates
     {
+        public Pirates()
+        {
+
+        }
     }
 }
