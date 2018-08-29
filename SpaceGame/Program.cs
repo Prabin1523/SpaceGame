@@ -251,8 +251,8 @@ namespace SpaceGame
             Console.ReadLine();
             Console.Clear();
 
-           
-            
+
+
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
@@ -1081,10 +1081,10 @@ namespace SpaceGame
             Console.Clear();
 
 
-           // Console.WriteLine("                                                                                              Enter your First Destination: ");
-           // Console.ReadLine();
+            // Console.WriteLine("                                                                                              Enter your First Destination: ");
+            // Console.ReadLine();
             Program.startMission();
-            
+
 
         }
 
@@ -1099,7 +1099,7 @@ namespace SpaceGame
             Console.WriteLine("                                                                                              1 - M63, 2 - Alpha Centuri ");
             string input = Console.ReadLine();
             int a = Convert.ToInt32(input);
-                      
+
             if (a == 1)
             {
                 Console.WriteLine("Your Destination is set to Planet M63. ");
@@ -1108,27 +1108,27 @@ namespace SpaceGame
             }
 
 
-             else if (a == 2)
+            else if (a == 2)
             {
                 Console.WriteLine("Your Destination is set to Planet Alpha Centuri. ");
                 Console.ReadLine();
                 Console.Clear();
 
-                
+
 
             }
-           
+
 
         }
 
         public static void Checkstatus()
-           {           
+        {
             Console.WriteLine("Check Status? ");
             Console.Write("Y: for yes, N: for no");
             Console.ReadLine();
 
             string status = Console.ReadLine();
-            if ( status == "Y")
+            if (status == "Y")
             {
                 Console.WriteLine("Fuel: GO");
                 Console.WriteLine("MRE: GO");
@@ -1139,38 +1139,38 @@ namespace SpaceGame
                 Console.ReadLine();
 
             }
-            else if ( status == "N")
+            else if (status == "N")
             {
                 Console.WriteLine("Roger That. ");
                 Console.ReadLine();
                 Console.Clear();
-                
+
             }
-            
-           }
+
+        }
 
         public static void GameOver()
         {
 
         }
 
-        
 
-        public static void TradeGoods()            
+
+        public static void TradeGoods()
         {
             Console.WriteLine("Do you want to trade your goods for Dark Matter? ");
             Console.WriteLine("Type YES, or NO: ");
             Console.ReadLine();
 
             string trade = Console.ReadLine();
-            if (trade == "YES") 
+            if (trade == "YES")
             {
                 Console.WriteLine("Your good has been traded for Dark Matter.");
                 Console.ReadLine();
-                Console.Clear();               
+                Console.Clear();
 
             }
-            else if(trade == "NO")
+            else if (trade == "NO")
             {
                 Console.WriteLine("Roger, No Trade. ");
                 Console.ReadLine();

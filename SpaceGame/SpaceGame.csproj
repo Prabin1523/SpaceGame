@@ -42,8 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Checkstatus1.cs" />
+    <Compile Include="CheckStatus2.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Destination1.cs" />
+    <Compile Include="Destination2.cs" />
+    <Compile Include="GameOver.cs" />
+    <Compile Include="Pirates.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpaceGame.cs" />
+    <Compile Include="TradeGoods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
