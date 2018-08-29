@@ -1083,73 +1083,13 @@ namespace SpaceGame
 
             // Console.WriteLine("                                                                                              Enter your First Destination: ");
             // Console.ReadLine();
-            Program.startMission();
-
-
-        }
-
-
-
-        public static void startMission()
-        {
-
-            Console.WriteLine("                                                                                              Enter your First Destination: ");
-            Console.ReadLine();
-            Console.Clear();
-            Console.WriteLine("                                                                                              1 - M63, 2 - Alpha Centuri ");
-            string input = Console.ReadLine();
-            int a = Convert.ToInt32(input);
-
-            if (a == 1)
-            {
-                Console.WriteLine("Your Destination is set to Planet M63. ");
-                Console.ReadLine();
-                Console.Clear();
-            }
-
-
-            else if (a == 2)
-            {
-                Console.WriteLine("Your Destination is set to Planet Alpha Centuri. ");
-                Console.ReadLine();
-                Console.Clear();
-
-
-
-            }
-
+           
 
         }
 
-        
+
 
        
-
-
-        
-
-        public static void Destination2()
-        {
-            Console.WriteLine("Enter your Destination. ");
-            Console.ReadLine();
-
-        }
-
-        public static void checkstatus2()
-        {
-
-        }
-
-        public static void pirates()
-        {
-
-        }
-
-
-        public static void gameover2()
-        {
-
-        }
 
 
     }

@@ -8,5 +8,11 @@ namespace SpaceGame
 {
     class Destination1
     {
+        public void Chosedestination()
+        {
+            Console.WriteLine("Enter your Destination. ");
+            Console.ReadLine();
+
+        }
     }
 }
