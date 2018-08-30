@@ -45,8 +45,7 @@
     <Compile Include="Checkstatus1.cs" />
     <Compile Include="CheckStatus2.cs" />
     <Compile Include="Class1.cs" />
-    <Compile Include="Destination1.cs" />
-    <Compile Include="Destination2.cs" />
+    <Compile Include="DistanceTravelled.cs" />
     <Compile Include="GameOver.cs" />
     <Compile Include="Pirates.cs" />
     <Compile Include="Program.cs" />
