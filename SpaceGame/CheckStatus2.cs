@@ -35,6 +35,14 @@ namespace SpaceGame
                 Console.Clear();
 
             }
+            else
+            {
+                Console.WriteLine("Invalid Entry!");
+                Console.ReadLine();
+                Console.Clear();
+
+            }
+
 
         }
 
