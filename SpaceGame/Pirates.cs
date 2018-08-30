@@ -39,10 +39,14 @@ namespace SpaceGame
                 Console.WriteLine("                                                                                                      .      ...       .       ");
                 Console.WriteLine("                                                                                                        .   .....   .      ");
                 Console.ReadLine();
+                Console.Clear();
+
+                
+        
 
             }
 
         }
-        }
+        
     }
 }
