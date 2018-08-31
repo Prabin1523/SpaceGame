@@ -511,7 +511,7 @@ namespace SpaceGame
 
                 string userValue = Console.ReadLine();
 
-                if (userValue == "C")
+                if (userValue == "C" || userValue == "c")
                 {
                     Console.WriteLine("                                                                                        You selected Space-X!");
                     Console.WriteLine("                                                                                        Space-X has maximum speed of 50 light years. ");
@@ -828,7 +828,7 @@ namespace SpaceGame
                     Console.Clear();
                 }
 
-                else if (userValue == "A")
+                else if (userValue == "A" || userValue == "a")
                 {
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
@@ -877,7 +877,7 @@ namespace SpaceGame
                     Achoice = "Thunder-Bird";
                     SpaceShip = false;
                 }
-                else if (userValue == "B")
+                else if (userValue == "B" || userValue == "b")
                 {
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
@@ -978,7 +978,7 @@ namespace SpaceGame
                 string cargoOption = Console.ReadLine();
                 Console.Clear();
 
-                if (cargoOption == "G")
+                if (cargoOption == "G" || cargoOption == "g")
                 {
 
                     Console.WriteLine(" ");
@@ -1007,7 +1007,7 @@ namespace SpaceGame
 
 
                 }
-                else if (cargoOption == "D")
+                else if (cargoOption == "D" || cargoOption == "d")
                 {
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");
@@ -1263,42 +1263,5 @@ namespace SpaceGame
 
 
 
-/*
-case 1 
-    Planet A
-    Ship A
-    Carryon A
-
-case 2
-    Planet A
-    Ship B
-    Carryon  B
-
-case 3
-    Planet A
-    Ship B
-    Carryon A
-
-case 4
-    Planet A
-    Ship A
-    Carryon B
-
-
-case 5
-    Planet B
-    Ship B
-    Carryon B
-
-case 6
-    Planet B
-    Ship A
-    Carryon B
-
-case 7
-    Planet B
-    Ship B
-    Carryon A
-    */
 
 
