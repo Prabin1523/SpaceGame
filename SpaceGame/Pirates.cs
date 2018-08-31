@@ -23,10 +23,16 @@ namespace SpaceGame
             Console.Clear();
 
             string piratesOption = Console.ReadLine();
-
-            if (piratesOption == "engage" || piratesOption == "Engage")
+            if (piratesOption == "abort" || piratesOption == "ABORT")
+            {
+                Console.WriteLine("Abort Mission");
                 Console.ReadLine();
-            Console.Clear();
+                Console.Clear();
+            }
+
+            else if (piratesOption == "engage" || piratesOption == "Engage")
+                Console.ReadLine();
+                Console.Clear();
             {
                 Console.WriteLine("Engage Confirmed");
                 Console.ReadLine();
