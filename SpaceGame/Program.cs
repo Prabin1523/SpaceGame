@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,11 +16,14 @@ namespace SpaceGame
         }
         public static void first()
         {
+           
 
         }
 
         public static void gameTitle()
         {
+            DateTime thetime = DateTime.Now;
+            Console.WriteLine(thetime.ToString());
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
@@ -251,8 +255,8 @@ namespace SpaceGame
             Console.ReadLine();
             Console.Clear();
 
-           
-            
+
+
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
@@ -309,6 +313,8 @@ namespace SpaceGame
             Console.WriteLine(" ");
 
 
+            SpeechSynthesizer synth = new SpeechSynthesizer();
+            synth.Speak("Welcome " + myFirstName + " " + myLastName);
 
             Console.Write("                                                                                                  Welcome " + myFirstName + " " + myLastName + " ------------ (-_-) !");
             Console.ReadLine();
@@ -1080,12 +1086,6 @@ namespace SpaceGame
             Console.ReadLine();
             Console.Clear();
 
-
-           // Console.WriteLine("                                                                                              Enter your First Destination: ");
-           // Console.ReadLine();
-            Program.startMission();
-            
-
         }
 
 
@@ -1099,7 +1099,7 @@ namespace SpaceGame
             Console.WriteLine("                                                                                              1 - M63, 2 - Alpha Centuri ");
             string input = Console.ReadLine();
             int a = Convert.ToInt32(input);
-                      
+
             if (a == 1)
             {
                 Console.WriteLine("Your Destination is set to Planet M63. ");
@@ -1108,27 +1108,27 @@ namespace SpaceGame
             }
 
 
-             else if (a == 2)
+            else if (a == 2)
             {
                 Console.WriteLine("Your Destination is set to Planet Alpha Centuri. ");
                 Console.ReadLine();
                 Console.Clear();
 
-                
+
 
             }
-           
+
 
         }
 
         public static void Checkstatus()
-           {           
+        {
             Console.WriteLine("Check Status? ");
             Console.Write("Y: for yes, N: for no");
             Console.ReadLine();
 
             string status = Console.ReadLine();
-            if ( status == "Y")
+            if (status == "Y")
             {
                 Console.WriteLine("Fuel: GO");
                 Console.WriteLine("MRE: GO");
@@ -1139,38 +1139,57 @@ namespace SpaceGame
                 Console.ReadLine();
 
             }
-            else if ( status == "N")
+            else if (status == "N")
             {
                 Console.WriteLine("Roger That. ");
                 Console.ReadLine();
                 Console.Clear();
-                
-            }
-            
-           }
 
-        public static void GameOver()
-        {
+            }
 
         }
 
-        
+        public static void GameOver()
+        {
+          Console.WriteLine("Your Name! XP");
+            string name = Console.ReadLine();
 
-        public static void TradeGoods()            
+            Console.WriteLine("How much fule do you have?");
+            int amountofFuel = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Hello, " + name);
+            int fuleIs = 0;
+            if (fuleIs > 0)
+            {
+                Console.WriteLine("You have made it to your Destination!");
+            }
+            else
+            {
+                Console.WriteLine("GameOver!!!!! -__________-  ");
+            }
+            
+
+
+
+        }
+
+
+
+        public static void TradeGoods()
         {
             Console.WriteLine("Do you want to trade your goods for Dark Matter? ");
             Console.WriteLine("Type YES, or NO: ");
             Console.ReadLine();
 
             string trade = Console.ReadLine();
-            if (trade == "YES") 
+            if (trade == "YES")
             {
                 Console.WriteLine("Your good has been traded for Dark Matter.");
                 Console.ReadLine();
-                Console.Clear();               
+                Console.Clear();
 
             }
-            else if(trade == "NO")
+            else if (trade == "NO")
             {
                 Console.WriteLine("Roger, No Trade. ");
                 Console.ReadLine();
@@ -1178,13 +1197,29 @@ namespace SpaceGame
             }
         }
 
-        public static void Destination2()
+        static void Planets()
         {
-            Console.WriteLine("Enter your Destination. ");
-            Console.ReadLine();
+            Planets planet = new Planets();
+            planet.AddPlanets(1);
 
+            Planets planet2 = new Planets();
+            planet2.AddPlanets(2);
         }
 
+        public static double travelTime(double W)
+        {
+            double travelTime = 0;
+            double distance = 0;
+
+            travelTime = distance / (Math.Pow(W, 10 / 3) +
+            Math.Pow(10 - W, -11 / 3));
+
+            return travelTime;
+        }
+        
+
+
+        
         public static void checkstatus2()
         {
 
