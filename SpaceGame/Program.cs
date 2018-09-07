@@ -1197,14 +1197,14 @@ namespace SpaceGame
             }
         }
 
-        static void Planets()
-        {
-            Planets planet = new Planets();
-            planet.AddPlanets(1);
+        //static void Planets()
+        //{
+        //    //Planets planet = new Planets();
+        //    planet.AddPlanets(1);
 
-            Planets planet2 = new Planets();
-            planet2.AddPlanets(2);
-        }
+        //    Planets planet2 = new Planets();
+        //    planet2.AddPlanets(2);
+        //}
 
         public static double travelTime(double W)
         {
